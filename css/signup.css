@@ -1,0 +1,95 @@
+@font-face {
+    font-family: myFont;
+    src: url(../font/roboto.ttf);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #0C2D57;
+    font-family: myFont;
+    background-image: url(../images/logo/background-img.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-table {
+    width: 100%;
+}
+
+h1 {
+    color: #FC6736;
+    text-align: center;
+    font-style: italic;
+    width: fit-content;
+    margin: 10px auto 30px;
+    padding: 10px 50px;
+    background-color: #d8d8d833;
+    border-radius: 30px;
+}
+
+.form-table {
+    border-radius: 60px;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    padding: 20px 60px;
+    margin: auto;
+    width: 50%;
+
+
+}
+
+
+
+
+.input,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #fc67361b;
+    border: 1px solid white;
+    color: snow;
+}
+
+textarea {
+    resize: none;
+}
+
+.input:focus {
+    outline: 1px solid black;
+    background-color: #fc6736d0;
+}
+
+textarea:focus {
+    outline: 1px solid black;
+    background-color: #fc6736d0;
+}
+
+
+
+
+.send-reset button {
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    border: 1px solid black;
+    color: white;
+    background-color: #fc67361b;
+    font-size: 15px;
+
+}
+
+.send-reset button:hover {
+    background-color: #FC6736;
+}
+
+a {
+    text-decoration: none;
+}

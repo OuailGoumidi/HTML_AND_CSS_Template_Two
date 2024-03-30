@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>E-shopping</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Ouial ouailgoumidi@gmail.com">
+    <meta name="description" content="electronic ecommerce website sell products online" />
+    <meta name="keywords" content="ecommerce,gaming-laptop" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The css link file -->
+    <link rel="stylesheet" href="../css/product.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="icon" href="images/logo/logo_icon.png" type="image/">
+</head>
+
+<body>
+    <table class="header-class">
+        <tr >
+            <td class="logo" colspan="1">
+                <a href="../index.html">
+                    <img width="200px" src="../images/logo/logo_black.png" alt="logo">
+                </a>
+
+            </td>
+            <td colspan="3">
+                <ul class="nav-list" >
+                    <li><a href="/index.html#1">Gaming laptop</a></li>
+                    <li><a href="/index.html#2">Phones</a></li>
+                    <li><a href="/index.html#3">Smart watches</a></li>
+                    <li><a href="/index.html#4">Gaming headset</a></li>
+                </ul>
+            </td>
+            <td >
+                <a href="../login.html">
+                    <button class="button" type="button">Log in</button>
+                </a>
+
+            </td>
+        </tr>
+    </table>
+
+    <!-- Main table -->
+    <table class="main-table">
+        <!-- First row for the title -->
+        <tr>
+            <th colspan="2">
+                <h1>Order the product</h1>
+            </th>
+        </tr>
+        <!-- Second row for product image and form -->
+        <tr>
+            <!-- The first col for image -->
+            <td>
+                <img src="../images/products/smart_watch/img_1.png" alt="">
+            </td>
+            <!-- The Second col for product form using another table inside the form -->
+            <td>
+                <form>
+                    <table>
+                        <!-- input text for seller name and adding same css style for input style using readonly-input class -->
+                        <tr>
+                            <td ><label for="seller">Seller </label></td>
+                            <td><input class="readonly-input" type="text" name="seller_name" id="seller"  readonly value="Oauil Goumidi"></td>
+                        </tr>
+                        <!-- input text for product price and adding some css for input style using readonly-input class -->
+                        <tr>
+                            <td><label for="price">Price </label></td>
+                            <td><input class="readonly-input" type="text" name="price" id="price" readonly value="259 $"></td>
+                        </tr>
+                        <!-- input text for product Id and adding some css for input style using readonly-input class -->
+                        <tr>
+                            <td><label for="product_id">Id  </label></td>
+                            <td><input class="readonly-input" type="text" name="id" readonly value="MICP1245"></td>
+                        </tr>
+                        <!-- adding a radio input for choose one color -->
+                        <tr>
+                            <td><label>Color </label></td>
+                            <td class="radio">
+                                <input type="radio" name="color"  value="black" required >
+                                <label for="black_color">black</label>
+                                <br>
+                                <input type="radio" name="color"  value="red" required>
+                                <label for="red_color">red</label>
+                            </td>
+                        </tr>
+                        <!-- adding a select option input for orders quantity , put the max=10 -->
+                        <tr>
+                            <td>
+                                <label for="quantity">Quantity </label>
+                            </td>
+                            <td>
+                                <select name="quantity" id="quantity">
+                                    <option selected value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+
+                                </select>
+                            </td>
+                        </tr>
+                        <!-- the submit button , I can also use button tag with type="submit" -->
+                        <tr>
+                            <td colspan="2">
+                                <input class="submit-button" type="submit" value="Commander">
+                            </td>
+                        </tr>
+
+                    </table>
+                </form>
+            </td>
+        </tr>
+    </table>
+    
+
+</body>
+
+</html>

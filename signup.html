@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>sign up</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Ouial ouailgoumidi@gmail.com">
+    <meta name="description" content="electronic ecommerce website sell products online" />
+    <meta name="keywords" content="ecommerce,gaming-laptop" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="icon" href="images/logo/logo_icon.png" type="image/">
+</head>
+
+<body>
+    <!-- header table -->
+    <table class="header-class">
+
+        <tr>
+            <td class="logo" colspan="2">
+                <a href="index.html">
+                    <img  width="200px" src="images/logo/logo_black.png" alt="logo">
+                </a>
+            </td>
+            <td colspan="2">
+                <ul class="nav-list" >
+                    <li><a href="/index.html#1">Gaming laptop</a></li>
+                    <li><a href="/index.html#2">Phones</a></li>
+                    <li><a href="/index.html#3">Smart watches</a></li>
+                    <li><a href="/index.html#4">Gaming headset</a></li>
+                </ul>
+            </td>
+            <td >
+                <a href="login.html">
+                    <button class="button" type="button">Log in</button>
+                </a>
+               
+            </td>
+        </tr>
+
+    </table>
+
+    <table class="main-table">
+        <tr>
+            <td colspan="2">
+                <h1>Sign up</h1>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <form>
+                    <table class="form-table">
+
+                        <tr>
+                            <td><label for="fname">First Name</label></td>
+                            <td><input class="input" type="text" name="first_name" id="fname" required></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="lname">Last Name</label></td>
+                            <td><input class="input" type="text" name="last_name" id="lname" required></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="age">Age</label></td>
+                            <td><input class="input" type="number" name="age" id="age" required value="18" min="18" max="100"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="state">State</label></td>
+                            <td>
+                                <select class="input" name="state" id="state">
+                                    <option value="Adrar">Adrar</option>
+                                    <option value="Chlef">Chlef</option>
+                                    <option value="Laghouat">Laghouat</option>
+                                    <option value="Oum El Bouaghi">Oum El Bouaghi</option>
+                                    <option value="Batna">Batna</option>
+                                    <option value="Béjaïa">Béjaïa</option>
+                                    <option value="Biskra">Biskra</option>
+                                    <option value="Béchar">Béchar</option>
+                                    <option value="Blida">Blida</option>
+                                    <option value="Bouïra">Bouïra</option>
+                                    <option value="Tamanrasset">Tamanrasset</option>
+                                    <option value="Tébessa">Tébessa</option>
+                                    <option value="Tlemcen">Tlemcen</option>
+                                    <option value="Tiaret">Tiaret</option>
+                                    <option value="Tizi Ouzou">Tizi Ouzou</option>
+                                    <option value="Algiers">Algiers</option>
+                                    <option  value="setif">Setif</option>
+                                    <option value="	Djelfa">Djelfa</option>
+                                    <option value="Jijel">Jijel</option>
+                                    <option selected value="Sétif">Sétif</option>
+                                    <option value="Saïda">Saïda</option>
+                                    <option value="Sidi Bel Abbès">Sidi Bel Abbès</option>
+                                    <option value="Annaba">Annaba</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="phone">Phone</label></td>
+                            <td><input class="input" type="tel" name="phone" id="phone" minlength="9" maxlength="10" required placeholder="+213"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="email">Email</label></td>
+                            <td><input class="input" type="email" name="email" id="email" required></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="address">Address</label></td>
+                            <td><textarea name="address" id="address"  rows="10" required maxlength="100" minlength="10"></textarea></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="password">Password</label></td>
+                            <td><input class="input" type="password" name="password" id="password" required></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="Rpassword">Repeat password</label></td>
+                            <td><input class="input" type="password" name="Rpassword" id="Rpassword" required></td>
+                            
+                        </tr>
+                        <tr>
+                            <td>Sex</td>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <input type="radio" name="sex" id="male" value="male" required>
+                                            <label for="male">Male</label>
+                                        </td>
+                                        <td>
+                                            <input type="radio" name="sex" id="female" value="female" required>
+                                            <label for="female">Female</label>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="send-reset">
+                                <button type="reset">Reset</button>
+                            </td>
+                            <td class="send-reset">
+                                <button type="submit">Send</button>
+                            </td>
+
+                        </tr>
+                    </table>
+                </form>
+            </td>
+
+        </tr>
+    </table>
+
+
+</body>
+
+</html>

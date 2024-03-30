@@ -1,0 +1,96 @@
+@font-face {
+    font-family: myFont;
+    src: url(../font/roboto.ttf);
+}
+
+* {
+    cursor: pointer;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: myFont;
+    background-image: url(../images/logo/background-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+.main-table {
+    width: 100%;
+}
+
+h1 {
+    color: #FC6736;
+    text-align: center;
+    font-style: italic;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 10px 50px;
+    background-color: #d8d8d833;
+    border-radius: 30px;
+}
+
+.form-table {
+    padding: 25px;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    width: 50%;
+    border-radius: 40px;
+
+}
+
+.input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px;
+    border: none;
+    outline: none;
+
+}
+
+.input:focus {
+    outline: 2px solid #FC6736;
+}
+
+
+td {
+    padding: 10px 0px;
+}
+
+
+.send-reset button {
+    width: 30%;
+    padding: 15px;
+    outline: none;
+    border: 1px solid black;
+    color: white;
+    background-color: #fc6836ce;
+
+}
+
+.send-reset button:hover {
+    background-color: #FC6736;
+}
+
+
+.login-logo {
+    display: block;
+    margin: auto;
+}
+
+a {
+    color: white;
+
+}
+
+span {
+    font-size: 13px;
+    color: snow;
+}

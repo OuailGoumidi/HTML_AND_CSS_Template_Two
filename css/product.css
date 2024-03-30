@@ -1,0 +1,107 @@
+/* using a local font */
+@font-face{
+    font-family: myFont;
+    src: url(../font/roboto.ttf);
+}
+
+body {
+    font-family: myFont;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    background-color: #0C2D57;
+}
+/* h1 styling */
+h1 {
+    color: #fc6736ce;
+    font-style: italic;
+    width: fit-content;
+    margin: 10px auto;
+    padding: 10px 50px;
+    background-color: #d8d8d833;
+    border-radius: 30px;
+}
+/* add a margin for the first table 10% top and bottom , auto from right and left */
+.main-table  {
+    margin: 30px auto;
+    width: 60%;
+    border: 1px solid white;
+
+}
+/*  for make the product image at center just using the margin ,and i put the width="300px"  */
+.main-table img {
+    display: block;
+    margin: auto;
+    width: 80%;
+    padding-bottom: 20px;
+}
+/* every td in the form table */
+form td {
+    
+    padding: 20px;
+}
+/* The input label */
+label {
+    color: white;
+    font-size: 20px;
+
+
+}
+/* for readonly input style */
+.readonly-input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    color: gray;
+}
+/* submit button style */
+.submit-button {
+    width: 100%;
+    padding: 10px 0;
+    border: 1px solid black;
+    color: white;
+    background-color: #fc6736ce;
+}
+
+.submit-button:hover {
+    background-color: #FC6736;
+}
+
+.radio label {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    background-color: rgba(136, 135, 135, 0.158);
+    margin-top: 2px;
+    width: 50px;
+    text-align: center;
+    padding: 4px;
+    border-radius: 10px;
+    display: inline-block;
+    
+    
+}
+
+select {
+    color: white;
+    width: 60px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color: #fc6736ce;
+    font-size: 15px;
+}
+
+select:hover {
+    background-color: #FC6736;
+}
+
+option {
+    background-color: #FC6736;
+}
+
+a {
+    text-decoration: none;
+}

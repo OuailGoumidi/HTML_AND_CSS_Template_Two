@@ -1,0 +1,52 @@
+.header-class {
+
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #EFECEC;
+}
+
+/* .header-class td {
+    border: 1px solid black;
+} */
+
+.header-class  td {
+    padding: 0 10px;
+}
+
+.logo  {
+    cursor: pointer;
+}
+
+.button {
+    
+    padding: 10px 15px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    background-color: #fc6836ce;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 80%;
+}
+.button:hover {
+    background-color: #FC6736 ;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list li{
+    margin: 5px 10px;
+    padding: 10px;
+    background-color: #b8b8b84d;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
